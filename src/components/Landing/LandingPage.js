@@ -9,8 +9,8 @@ const Landing = () => {
     <div className="page-landing">
       <Header />
       <main className="main central-column">
-        <h1 className="main__title"> Sagra Mielgo</h1>
-        {/*  <div className="transparent-container"> */}
+        <h1 className="main__title"> Let's talk!</h1>
+        {/*    <div className="transparent-container"> */}
         <article className="article">
           <ol className="article__list">
             <li className="article__list--item">
@@ -36,7 +36,7 @@ const Landing = () => {
             </li>
           </ol>
         </article>
-        {/*  </div> */}
+        {/*   </div> */}
 
         <div className="main__button">
           {/*  <Link to="/card-generator" className="main__button--link"> */}

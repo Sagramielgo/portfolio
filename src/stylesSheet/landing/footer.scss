@@ -1,5 +1,12 @@
 .footer {
-  height: 50px;
+  width: 50%;
+  height: 30px;
+  position: absolute;
+  bottom: 20px;
+
+  &_copy {
+    text-align: center;
+  }
 
   &_link {
     color: white;

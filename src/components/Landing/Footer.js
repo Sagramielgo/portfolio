@@ -9,7 +9,7 @@ function Footer() {
         target="_blank"
         rel="noreferrer"
       >
-        <small className="copy">
+        <small className="footer_copy">
           By #gitFuntastic&nbsp;
           <span>
             <i className="fas fa-paw "></i>
