@@ -15,22 +15,40 @@ const Landing = () => {
         <article className="article">
           <ol className="article__list">
             <li className="article__list--item">
-              <i
-                className="article__list--icon fab fa-linkedin"
-                aria-hidden="true"
-              ></i>
+              <a
+                href="https://www.linkedin.com/in/sagramielgo/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i
+                  className="article__list--icon fab fa-linkedin"
+                  aria-hidden="true"
+                ></i>
+              </a>
             </li>
             <li className="article__list--item">
-              <i
-                className="article__list--icon fab fa-twitter-square"
-                aria-hidden="true"
-              ></i>
+              <a
+                href="https://twitter.com/Sagramielgo"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i
+                  className="article__list--icon fab fa-twitter-square"
+                  aria-hidden="true"
+                ></i>
+              </a>
             </li>
             <li className="article__list--item">
-              <i
-                className="article__list--icon fas fa-envelope-square"
-                aria-hidden="true"
-              ></i>
+              <a
+                href="mailto:sagramielgo@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i
+                  className="article__list--icon fas fa-envelope-square"
+                  aria-hidden="true"
+                ></i>
+              </a>
             </li>
             {/*    <li className="article__list--item">
               Youtube{' '}
@@ -38,7 +56,6 @@ const Landing = () => {
             </li> */}
             <li className="article__list--item">
               <a
-                /*  className="footer_link" */
                 href="https://github.com/Sagramielgo"
                 target="_blank"
                 rel="noreferrer"
