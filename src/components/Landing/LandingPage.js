@@ -36,7 +36,14 @@ const Landing = () => {
               <i className="article__list--icon fab fa-youtube-square"></i>
             </li> */}
             <li className="article__list--item">
-              <i className="article__list--icon fab fa-github-square"></i>
+              <a
+                /*  className="footer_link" */
+                href="https://github.com/Sagramielgo"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="article__list--icon fab fa-github-square"></i>
+              </a>
             </li>
           </ol>
         </article>
