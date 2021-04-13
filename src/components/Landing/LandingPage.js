@@ -10,33 +10,36 @@ const Landing = () => {
       <Header />
       <main className="main central-column">
         <h1 className="main__title"> Let's talk!</h1>
-        {/*    <div className="transparent-container"> */}
+
         <article className="article">
           <ol className="article__list">
             <li className="article__list--item">
-              Linkedin
               <i
-                className="article__list--icon fa fa-object-ungroup"
-                aria-hidden="true"
-              ></i>{' '}
-            </li>
-            <li className="article__list--item">
-              Twitter{' '}
-              <i
-                className="article__list--icon fa fa-keyboard-o"
+                className="article__list--icon fab fa-linkedin"
                 aria-hidden="true"
               ></i>
             </li>
             <li className="article__list--item">
-              Youtube
               <i
-                className="article__list--icon  fa fa-share-alt"
+                className="article__list--icon fab fa-twitter-square"
                 aria-hidden="true"
               ></i>
+            </li>
+            <li className="article__list--item">
+              <i
+                className="article__list--icon fas fa-envelope-square"
+                aria-hidden="true"
+              ></i>
+            </li>
+            {/*    <li className="article__list--item">
+              Youtube{' '}
+              <i className="article__list--icon fab fa-youtube-square"></i>
+            </li> */}
+            <li className="article__list--item">
+              <i className="article__list--icon fab fa-github-square"></i>
             </li>
           </ol>
         </article>
-        {/*   </div> */}
 
         <div className="main__button">
           {/*  <Link to="/card-generator" className="main__button--link"> */}
