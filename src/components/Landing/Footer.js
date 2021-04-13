@@ -1,10 +1,10 @@
-/* import '../stylesheets/_footer.scss'; */
+import '../../stylesSheet/landing/footer.scss';
 
 function Footer() {
   return (
     <footer className="footer">
       <a
-        className="firmLink"
+        className="footer_link"
         href="https://github.com/Sagramielgo"
         target="_blank"
         rel="noreferrer"
