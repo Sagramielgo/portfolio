@@ -16,6 +16,7 @@ const Landing = () => {
           <ol className="article__list">
             <li className="article__list--item">
               <a
+                className="article__list--link"
                 href="https://www.linkedin.com/in/sagramielgo/"
                 target="_blank"
                 rel="noreferrer"
@@ -28,6 +29,7 @@ const Landing = () => {
             </li>
             <li className="article__list--item">
               <a
+                className="article__list--link"
                 href="https://twitter.com/Sagramielgo"
                 target="_blank"
                 rel="noreferrer"
@@ -40,6 +42,7 @@ const Landing = () => {
             </li>
             <li className="article__list--item">
               <a
+                className="article__list--link"
                 href="mailto:sagramielgo@gmail.com"
                 target="_blank"
                 rel="noreferrer"
@@ -56,6 +59,7 @@ const Landing = () => {
             </li> */}
             <li className="article__list--item">
               <a
+                className="article__list--link"
                 href="https://github.com/Sagramielgo"
                 target="_blank"
                 rel="noreferrer"
