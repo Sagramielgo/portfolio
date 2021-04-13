@@ -5,9 +5,11 @@ import LandingPage from './Landing/LandingPage';
 import React from 'react';
 function App() {
   return (
-    <Switch>
-      <Route exact path="/" component={LandingPage} />
-    </Switch>
+    <div className="App">
+      <Switch>
+        <Route exact path="/" component={LandingPage} />
+      </Switch>
+    </div>
   );
 }
 

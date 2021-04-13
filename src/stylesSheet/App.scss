@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background: url(../images/sagra-1.jpg) no-repeat top;
+  background-size: cover;
 }
 
 .App-logo {
@@ -14,9 +16,6 @@
 }
 
 .App-header {
-  background: url(../images/sagra-1.jpg) no-repeat top;
-  background-size: cover;
-  /*  background-color: #303746; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,8 +37,8 @@
     transform: rotate(360deg);
   }
 }
-.copy {
-  color: white;
+.firmLink {
+  color: rgb(44, 40, 40);
 }
 .fa-paw {
   color: cyan;
