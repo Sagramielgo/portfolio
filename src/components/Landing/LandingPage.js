@@ -3,6 +3,7 @@ import React from 'react';
 import '../../stylesSheet/landing/landingPage.scss';
 import Header from './Header';
 import Footer from './Footer';
+import ButtonSection from './ButtonSection';
 
 const Landing = () => {
   return (
@@ -47,17 +48,9 @@ const Landing = () => {
             </li>
           </ol>
         </article>
-        <div className="main__button">
-          {/*  <Link to="/card-generator" className="main__button--link"> */}
-          About me
-          {/*   </Link> */}
-        </div>
-        <div className="main__button">
-          {/*  <Link to="/card-generator" className="main__button--link"> */}
-          Proyectos
-          {/*   </Link> */}
-        </div>
+        <ButtonSection />
       </main>
+
       <Footer />
     </div>
   );
