@@ -47,7 +47,11 @@ const Landing = () => {
             </li>
           </ol>
         </article>
-
+        <div className="main__button">
+          {/*  <Link to="/card-generator" className="main__button--link"> */}
+          About me
+          {/*   </Link> */}
+        </div>
         <div className="main__button">
           {/*  <Link to="/card-generator" className="main__button--link"> */}
           Proyectos
