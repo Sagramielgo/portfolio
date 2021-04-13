@@ -9,7 +9,7 @@ const Landing = () => {
   return (
     <div className="page-landing">
       <Header />
-      <main className="main central-column">
+      <main className="main">
         <h1 className="main__title"> Let's talk!</h1>
 
         <article className="article">
