@@ -26,15 +26,16 @@
       border: 2px solid cyan;
     }
     @media all and (min-width: 768px) {
-      margin: 20px 20px;
+      margin: 20px 15px;
       width: 130px;
       height: 42px;
+      font-size: 20px;
     }
-    &--link {
+    /*   &--link {
       text-transform: uppercase;
       text-align: center;
       font-weight: 600;
-    }
+    } */
   }
 }
 @keyframes scale {

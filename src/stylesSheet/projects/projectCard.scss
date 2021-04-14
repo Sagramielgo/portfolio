@@ -19,7 +19,7 @@
     text-transform: uppercase;
     font-size: 20px;
     margin: 0;
-    padding-top: 30px;
+    padding-bottom: 20px;
   }
   &__image {
     width: 140px;
@@ -27,10 +27,10 @@
   &__contact {
     list-style: none;
     display: inline;
-    padding-bottom: 30px;
-    &--link {
+    padding-top: 10px;
+    &--item {
       display: inline;
-      margin: 5px;
+      margin: 7px;
       font-size: 18px;
     }
   }

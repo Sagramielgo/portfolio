@@ -11,7 +11,7 @@ function ButtonSection() {
       </div>
       <div className="btnSection__button">
         <Link to="/projects" className="main__button--link">
-          Proyectos
+          Projects
         </Link>
       </div>
     </section>

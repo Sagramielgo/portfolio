@@ -30,20 +30,25 @@ function ProjectCard(props) {
       />
 
       <ul className="projectCard__contact">
-        <a
-          className="projectCard__contact--link"
-          href={props.project.demo.web}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Web
-        </a>
+        <li className="projectCard__contact--item">
+          <a
+            className="projectCard__contact--link"
+            href={props.project.demo.web}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className=" projectCard__contact--icon fas fa-link"></i>
+            Web
+          </a>
+        </li>
+
         <a
           className="projectCard__contact--link"
           href={props.project.demo.repo}
           target="_blank"
           rel="noreferrer"
         >
+          <i className="projectCard__contact--icon fas fa-link"></i>
           GitHub
         </a>
       </ul>
