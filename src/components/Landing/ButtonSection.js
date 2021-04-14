@@ -1,4 +1,5 @@
 import '../../stylesSheet/landing/buttonSection.scss';
+import { Link } from 'react-router-dom';
 
 function ButtonSection() {
   return (
@@ -9,9 +10,9 @@ function ButtonSection() {
         {/*   </Link> */}
       </div>
       <div className="btnSection__button">
-        {/*  <Link to="/card-generator" className="main__button--link"> */}
-        Proyectos
-        {/*   </Link> */}
+        <Link to="/projects" className="main__button--link">
+          Proyectos
+        </Link>
       </div>
     </section>
   );
