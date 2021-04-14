@@ -1,0 +1,28 @@
+.titleBio {
+  color: white;
+  padding-top: 50px;
+}
+.mainContainer {
+  margin: 50px 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    margin: 50px 100px 0 100px;
+  }
+}
+.text1 {
+  color: white;
+}
+.articleBio {
+  border: 2px solid white;
+  border-radius: 10px;
+
+  margin: 20px 50px;
+}
+.articleBio1 {
+  background-color: rgba(0, 255, 255, 0.4);
+}
+.articleBio2 {
+  background-color: rgba(255, 255, 255, 0.4);
+}
