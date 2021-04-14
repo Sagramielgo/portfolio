@@ -23,6 +23,7 @@ function Projects() {
           getHideColor={handleRemoveColor}
         />
       </main>
+      <h2>Video Demos</h2>
       <Footer />
     </div>
   );
