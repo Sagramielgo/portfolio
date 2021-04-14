@@ -15,14 +15,16 @@ function Projects() {
     setColorData('');
   }
   return (
-    <div className={`container ${colorData}`}>
-      <ProjectList
-        projects={state}
-        getShowColor={handleShowColor}
-        getHideColor={handleRemoveColor}
-      />
+    <>
+      <div className={`container ${colorData}`}>
+        <ProjectList
+          projects={state}
+          getShowColor={handleShowColor}
+          getHideColor={handleRemoveColor}
+        />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

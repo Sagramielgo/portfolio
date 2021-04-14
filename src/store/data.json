@@ -1,6 +1,30 @@
 [
     {
       "id": 1,
+      "name": "Character Browser",
+      "demo": {
+        "web": "https://github.com/Sagramielgo/characters-finder-rick-and-morty-Sagramielgo",
+        "repo": "https://sagramielgo.github.io/characters-finder-rick-and-morty-Sagramielgo/"
+      },
+     
+      "url": "characterBrowser.png"
+     
+    },
+  
+  
+    {
+      "id": 2,
+      "name": "Tv Browser",
+      "demo": {
+        "web": "https://sagramielgo.github.io/tvseries-finder-Sagramielgo/",
+        "repo": "https://github.com/Sagramielgo/tvseries-finder-Sagramielgo"
+      },
+      "url": "series-browser.png"
+     
+    },
+  
+    {
+      "id": 3,
       "name": "devRockets",
       "demo": {
         "web": "https://sagramielgo.github.io/sagramielgo-dev-rockets/",
@@ -9,5 +33,52 @@
       "evolution": null,
       "url": "devRockets.png"
      
-    }]
+    },
+    {
+      "id": 4,
+      "name": "Counting Sheep",
+      "demo": {
+        "web": "https://sagramielgo.github.io/sheeps-counter/",
+        "repo": "https://github.com/Sagramielgo/sheeps-counter"
+      },
+      "evolution": null,
+      "url": "counting-sheep.png"
+     
+    },
+    {
+      "id": 5,
+      "name": "Layout Loving Dog",
+      "demo": {
+        "web": "https://sagramielgo.github.io/layout-loving-dog/",
+        "repo": "https://github.com/Sagramielgo/layout-loving-dog"
+      },
+      "evolution": null,
+      "url": "layout-loving-dog.png"
+     
+    },
+    {
+      "id": 6,
+      "name": "devRockets",
+      "demo": {
+        "web": "https://sagramielgo.github.io/sagramielgo-dev-rockets/",
+        "repo": "https://github.com/Sagramielgo/sagramielgo-dev-rockets"
+      },
+      "evolution": null,
+      "url": "devRockets.png"
+     
+    },
+    {
+      "id": 7,
+      "name": "devRockets",
+      "demo": {
+        "web": "https://sagramielgo.github.io/sagramielgo-dev-rockets/",
+        "repo": "https://github.com/Sagramielgo/sagramielgo-dev-rockets"
+      },
+      "evolution": null,
+      "url": "devRockets.png"
+     
+    }
+   
+  
+  ]
   
