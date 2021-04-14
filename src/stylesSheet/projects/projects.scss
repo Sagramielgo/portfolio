@@ -1,16 +1,16 @@
 * {
   box-sizing: border-box;
 }
-/* .App {
+.container {
   width: 100%;
-  list-style: none;
-  background-color: rgb(236, 213, 217);
-} */
+
+  &_main {
+    border-radius: 30px;
+    padding-bottom: 20px;
+  }
+}
+
 .bgColor {
   transition: all ease 0.5s;
   background-color: rgba(0, 255, 255, 0.5);
-}
-.container {
-  border-radius: 30px;
-  padding-bottom: 20px;
 }

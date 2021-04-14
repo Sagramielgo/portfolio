@@ -7,14 +7,16 @@
 .title {
   padding: 40px;
   text-align: center;
+  color: cyan;
 }
 
 .listContainer {
+  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   list-style: none;
 }
 .white {
-  color: aliceblue;
+  color: white;
 }
