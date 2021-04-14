@@ -32,7 +32,7 @@ function ProjectCard(props) {
       <ul className="projectCard__contact">
         <a
           className="projectCard__contact--link"
-          href={props.project.web}
+          href={props.project.demo.web}
           target="_blank"
           rel="noreferrer"
         >
@@ -40,7 +40,7 @@ function ProjectCard(props) {
         </a>
         <a
           className="projectCard__contact--link"
-          href={props.project.repo}
+          href={props.project.demo.repo}
           target="_blank"
           rel="noreferrer"
         >

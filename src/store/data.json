@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "devRockets",
-      "contact": {
+      "demo": {
         "web": "https://sagramielgo.github.io/sagramielgo-dev-rockets/",
         "repo": "https://github.com/Sagramielgo/sagramielgo-dev-rockets"
       },
