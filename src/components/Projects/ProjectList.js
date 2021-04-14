@@ -4,11 +4,11 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 function ProjectList(props) {
-  const [choose, setChoose] = useState('Some of my projects');
+  const [choose, setChoose] = useState('Take a look at my projects');
   const [colorTitle, setColorTitle] = useState('');
 
   const handleChoose = () => {
-    setChoose('HAZ CLICK EN TU FAVORITO');
+    setChoose('Click on Web or GitHub');
     setColorTitle('white');
     props.getShowColor();
   };
