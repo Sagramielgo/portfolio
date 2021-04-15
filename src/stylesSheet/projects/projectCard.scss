@@ -9,7 +9,7 @@
   border: 5px solid grey;
   border-radius: 20px;
   margin: 20px;
-  background-color: whitesmoke;
+  background-color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
   transition: all ease 0.4s;
   @media all and (min-width: 768px) {
@@ -24,7 +24,7 @@
     font-size: 18px;
     margin: 0;
     padding-bottom: 20px;
-    color: rgb(87, 85, 85);
+    color: rgb(63, 62, 62);
     @media all and (min-width: 768px) {
       font-size: 22px;
     }

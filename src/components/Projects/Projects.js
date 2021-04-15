@@ -3,6 +3,7 @@ import data from '../../store/data.json';
 import ProjectList from './ProjectList.js';
 import Footer from '../Landing/Footer';
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Projects() {
   const [state] = useState(data);
@@ -23,7 +24,11 @@ function Projects() {
           getHideColor={handleRemoveColor}
         />
       </main>
-      <h2>Video Demos</h2>
+      <div className="btnSection__button">
+        <Link to="/" className="main__button--link">
+          Home
+        </Link>
+      </div>
       <Footer />
     </div>
   );

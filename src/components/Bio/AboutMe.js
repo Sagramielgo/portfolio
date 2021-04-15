@@ -1,9 +1,16 @@
 import '../../stylesSheet/bio/aboutMe.scss';
+import '../../stylesSheet/landing/buttonSection.scss';
+import { Link } from 'react-router-dom';
 import React from 'react';
 function AboutMe() {
   return (
-    <div>
+    <div className="bioContainer">
       <h1 className="titleBio">About Me</h1>
+      <div className="btnSection__button">
+        <Link to="/" className="main__button--link">
+          Home
+        </Link>
+      </div>
       <main className="mainContainer">
         <article className="articleBio articleBio1">
           <p className="text text1">

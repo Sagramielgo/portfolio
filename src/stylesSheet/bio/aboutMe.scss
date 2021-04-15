@@ -1,3 +1,10 @@
+.bioContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .titleBio {
   color: white;
   padding-top: 50px;
