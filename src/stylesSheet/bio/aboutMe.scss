@@ -7,16 +7,23 @@
 
 .titleBio {
   color: white;
-  padding-top: 50px;
+  padding: 50px 0;
+  @media all and (min-width: 768px) {
+    font-size: 50px;
+  }
 }
 .mainContainer {
-  margin: 50px 50px 0 50px;
+  margin: 50px;
   display: flex;
   flex-direction: column;
   @media all and (min-width: 768px) {
     flex-direction: row;
     margin: 50px 100px 0 100px;
   }
+}
+.text {
+  padding: 20px;
+  font-size: 18px;
 }
 .text1 {
   color: white;
