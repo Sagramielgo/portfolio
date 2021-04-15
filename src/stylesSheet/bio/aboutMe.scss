@@ -7,18 +7,18 @@
 
 .titleBio {
   color: white;
-  padding: 50px 0;
+  padding: 50px 0 20px 0;
   @media all and (min-width: 768px) {
     font-size: 50px;
   }
 }
 .mainContainer {
-  margin: 50px;
+  margin: 30px;
   display: flex;
   flex-direction: column;
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1200px) {
     flex-direction: row;
-    margin: 50px 100px 0 100px;
+    margin: 30px 100px;
   }
 }
 .text {
@@ -31,8 +31,11 @@
 .articleBio {
   border: 2px solid white;
   border-radius: 10px;
-
   margin: 20px 50px;
+  @media all and (min-width: 1200px) {
+    width: 50%;
+    margin: 0 50px;
+  }
 }
 .articleBio1 {
   background-color: rgba(0, 255, 255, 0.4);

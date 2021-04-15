@@ -70,8 +70,20 @@
       },
       "url": "react-magicians.png"
      
+    },
+    
+    {
+      "id": 8,
+      "name": "React Magicians",
+      "demo": {
+        "web": "https://sagramielgo-react-magicians.herokuapp.com/",
+        "repo": "https://github.com/Sagramielgo/react-magicians"
+      },
+      "url": "react-magicians.png"
+     
     }
-   
+  
+      
   
   ]
   

@@ -2,7 +2,7 @@
 
 .main {
   width: 50vw;
-  margin-top: 80px;
+  margin: 120px 0 80px 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -10,7 +10,7 @@
   text-align: center;
   height: calc(50vh - 55px);
   @media all and (min-width: 768px) {
-    height: calc(50vh - 30.5px);
+    margin: 40px 0;
   }
   &__title {
     font-size: 19.2px;

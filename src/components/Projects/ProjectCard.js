@@ -41,16 +41,17 @@ function ProjectCard(props) {
             Web
           </a>
         </li>
-
-        <a
-          className="projectCard__contact--link"
-          href={props.project.demo.repo}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="projectCard__contact--icon fas fa-link"></i>
-          GitHub
-        </a>
+        <li className="projectCard__contact--item">
+          <a
+            className="projectCard__contact--link"
+            href={props.project.demo.repo}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="projectCard__contact--icon fas fa-link"></i>
+            GitHub
+          </a>
+        </li>
       </ul>
     </article>
   );

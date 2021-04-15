@@ -5,9 +5,16 @@
   justify-content: center;
   align-items: center;
 
-  &_main {
+  &__main {
+    margin: 40px 50px 0 50px;
     border-radius: 30px;
     padding-bottom: 20px;
+    @media all and (min-width: 768px) {
+      margin: 50px 110px 0 110px;
+    }
+    @media all and (min-width: 1200px) {
+      margin: 50px 170px 0 170px;
+    }
   }
 }
 

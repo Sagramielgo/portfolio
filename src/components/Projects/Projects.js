@@ -18,7 +18,7 @@ function Projects() {
   return (
     <>
       <div className="container">
-        <main className={`container_main ${colorData}`}>
+        <main className={`container__main ${colorData}`}>
           <ProjectList
             projects={state}
             getShowColor={handleShowColor}

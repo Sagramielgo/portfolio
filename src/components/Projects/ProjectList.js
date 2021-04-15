@@ -13,7 +13,7 @@ function ProjectList(props) {
     props.getShowColor();
   };
   const handleRemove = () => {
-    setChoose('Some of my projects');
+    setChoose('Take a look at my projects');
     setColorTitle('');
     props.getHideColor();
   };

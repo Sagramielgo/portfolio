@@ -1,7 +1,7 @@
 .projectCard {
   box-sizing: border-box;
-  width: 160px;
-  height: 210px;
+  width: 135px;
+  height: 170px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,6 +13,11 @@
   cursor: pointer;
   transition: all ease 0.4s;
   @media all and (min-width: 768px) {
+    width: 160px;
+    height: 210px;
+  }
+
+  @media all and (min-width: 1200px) {
     width: 200px;
     height: 250px;
   }
@@ -20,29 +25,44 @@
     transform: scale(1.1);
   }
   &__name {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
     padding: 10px 0;
     color: rgb(63, 62, 62);
     @media all and (min-width: 768px) {
+      font-size: 20px;
+    }
+    @media all and (min-width: 1200px) {
       font-size: 22px;
     }
   }
   &__image {
-    width: 140px;
     border-radius: 10px;
+    width: 120px;
+
     @media all and (min-width: 768px) {
+      width: 140px;
+    }
+    @media all and (min-width: 1200px) {
       width: 180px;
     }
   }
   &__contact {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    @media all and (min-width: 768px) {
+      padding-bottom: 10px;
+    }
     &--item {
       display: inline;
-      margin: 7px;
-      font-size: 16px;
+      margin: 3px;
+      font-size: 14px;
       @media all and (min-width: 768px) {
+        font-size: 16px;
+        margin: 5px;
+      }
+      @media all and (min-width: 1200px) {
         font-size: 18px;
+        margin: 7px;
       }
     }
     &--link {
