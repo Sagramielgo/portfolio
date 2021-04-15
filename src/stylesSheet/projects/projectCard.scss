@@ -5,8 +5,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  border: 5px solid grey;
+  justify-content: space-between;
+  border: 5px solid white;
   border-radius: 20px;
   margin: 20px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -20,10 +20,9 @@
     transform: scale(1.1);
   }
   &__name {
-    /*  text-transform: uppercase; */
     font-size: 18px;
     margin: 0;
-    padding-bottom: 20px;
+    padding: 10px 0;
     color: rgb(63, 62, 62);
     @media all and (min-width: 768px) {
       font-size: 22px;
@@ -37,9 +36,7 @@
     }
   }
   &__contact {
-    list-style: none;
-    display: inline;
-    padding-top: 10px;
+    padding-bottom: 10px;
     &--item {
       display: inline;
       margin: 7px;
@@ -48,8 +45,15 @@
         font-size: 18px;
       }
     }
+    &--link {
+      color: rgb(68, 67, 67);
+      &:hover {
+        color: white;
+      }
+    }
   }
 }
+
 .blue {
   background: cyan;
 }

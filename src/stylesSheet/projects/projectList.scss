@@ -11,7 +11,7 @@
 }
 
 .listContainer {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -19,4 +19,40 @@
 }
 .white {
   color: white;
+}
+.articleProject {
+  width: 250px;
+  border-radius: 4px;
+  border: solid 1.6px rgba(255, 255, 255, 0.6);
+  padding: 10px 0;
+  margin-top: 20px;
+  margin: auto;
+  @media all and (min-width: 768px) {
+    width: 400px;
+    margin-top: 27px;
+    padding: 10px 0;
+  }
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    &--item {
+      display: flex;
+      /*    flex-direction: column-reverse; */
+      font-size: 12px;
+    }
+
+    @media all and (min-width: 768px) {
+      font-size: 16px;
+    }
+
+    &--icon {
+      color: white;
+      font-size: 22px;
+      @media all and (min-width: 768px) {
+        font-size: 28px;
+      }
+    }
+  }
 }

@@ -16,21 +16,23 @@ function Projects() {
     setColorData('');
   }
   return (
-    <div className="container">
-      <main className={`container_main ${colorData}`}>
-        <ProjectList
-          projects={state}
-          getShowColor={handleShowColor}
-          getHideColor={handleRemoveColor}
-        />
-      </main>
-      <div className="btnSection__button">
-        <Link to="/" className="main__button--link">
-          Home
-        </Link>
+    <>
+      <div className="container">
+        <main className={`container_main ${colorData}`}>
+          <ProjectList
+            projects={state}
+            getShowColor={handleShowColor}
+            getHideColor={handleRemoveColor}
+          />
+        </main>
+        <div className="btnSection__button">
+          <Link to="/" className="main__button--link">
+            Home
+          </Link>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }
 
