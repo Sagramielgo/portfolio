@@ -13,17 +13,26 @@
   }
 }
 .mainContainer {
-  margin: 30px;
+  /* margin: 5px; */
   display: flex;
   flex-direction: column;
+  margin: 20px 0;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    margin: 30px;
+  }
   @media all and (min-width: 1200px) {
     flex-direction: row;
-    margin: 30px 100px;
+    margin: 30px 50px;
   }
 }
 .text {
-  padding: 20px;
-  font-size: 18px;
+  padding: 10px;
+  font-size: 16px;
+  @media all and (min-width: 1200px) {
+    padding: 20px;
+    font-size: 20px;
+  }
 }
 .text1 {
   color: white;
@@ -31,7 +40,10 @@
 .articleBio {
   border: 2px solid white;
   border-radius: 10px;
-  margin: 20px 50px;
+  margin: 15px 5px;
+  @media all and (min-width: 768px) {
+    margin: 0 10px;
+  }
   @media all and (min-width: 1200px) {
     width: 50%;
     margin: 0 50px;

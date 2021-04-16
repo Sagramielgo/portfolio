@@ -25,7 +25,7 @@ function Projects() {
             getHideColor={handleRemoveColor}
           />
         </main>
-        <div className="btnSection__button">
+        <div className="btnSection__button btnProjects">
           <Link to="/" className="main__button--link">
             Home
           </Link>

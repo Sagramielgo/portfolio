@@ -6,7 +6,7 @@
   align-items: center;
 
   &__main {
-    margin: 40px 50px 0 50px;
+    margin: 20px 50px 0 50px;
     border-radius: 30px;
     padding-bottom: 20px;
     @media all and (min-width: 768px) {
@@ -21,4 +21,7 @@
 .bgColor {
   transition: all ease 0.5s;
   background-color: rgba(0, 255, 255, 0.4);
+}
+.btnProjects {
+  margin-bottom: 30px;
 }
