@@ -12,8 +12,8 @@ const Landing = () => {
       <main className="main">
         <h1 className="main__title"> Let's talk!</h1>
 
-        <article className="article">
-          <ol className="article__list">
+        <nav className="article">
+          <ul className="article__list">
             <li className="article__list--item">
               <a
                 className="article__list--link"
@@ -53,10 +53,6 @@ const Landing = () => {
                 ></i>
               </a>
             </li>
-            {/*    <li className="article__list--item">
-              Youtube{' '}
-              <i className="article__list--icon fab fa-youtube-square"></i>
-            </li> */}
             <li className="article__list--item">
               <a
                 className="article__list--link"
@@ -67,8 +63,8 @@ const Landing = () => {
                 <i className="article__list--icon fab fa-github-square"></i>
               </a>
             </li>
-          </ol>
-        </article>
+          </ul>
+        </nav>
         <ButtonSection />
       </main>
 
