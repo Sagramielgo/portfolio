@@ -25,11 +25,12 @@ function Projects() {
             getHideColor={handleRemoveColor}
           />
         </main>
-        <h1 className="main__title"> Demo Projects</h1>
+        <h1 className="main__title"> Video demos</h1>
 
-        <nav className="article">
+        <nav className="article videoNav">
           <ul className="article__list">
             <li className="article__list--item">
+              devRockets
               <a
                 className="article__list--link"
                 href="https://www.linkedin.com/in/sagramielgo/"
@@ -43,6 +44,8 @@ function Projects() {
               </a>
             </li>
             <li className="article__list--item">
+              {' '}
+              This is Me
               <a
                 className="article__list--link"
                 href="https://twitter.com/Sagramielgo"
@@ -56,6 +59,8 @@ function Projects() {
               </a>
             </li>
             <li className="article__list--item">
+              {' '}
+              React Magicians
               <a
                 className="article__list--link"
                 href="mailto:sagramielgo@gmail.com"
@@ -66,16 +71,6 @@ function Projects() {
                   className="article__list--icon fas fa-envelope-square"
                   aria-hidden="true"
                 ></i>
-              </a>
-            </li>
-            <li className="article__list--item">
-              <a
-                className="article__list--link"
-                href="https://github.com/Sagramielgo"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="article__list--icon fab fa-github-square"></i>
               </a>
             </li>
           </ul>

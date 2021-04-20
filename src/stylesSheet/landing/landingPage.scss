@@ -39,7 +39,9 @@
     justify-content: space-evenly;
 
     &--item {
+      padding: 0 15px;
       display: flex;
+      color: white;
       flex-direction: column-reverse;
       font-size: 12px;
       &:hover {
