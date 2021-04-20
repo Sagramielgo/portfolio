@@ -14,11 +14,11 @@ function ButtonSection() {
           Projects
         </Link>
       </div>
-      <div className="btnSection__button">
-        {/*  <Link to="/projects" className="main__button--link"> */}
+      {/*  <div className="btnSection__button">
+       <Link to="/projects" className="main__button--link"> 
         Vídeo
-        {/*  </Link> */}
-      </div>
+      </Link> 
+      </div> */}
     </section>
   );
 }
