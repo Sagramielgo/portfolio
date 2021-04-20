@@ -20,17 +20,19 @@
       },
       "url": "series-browser.png"
     },
-  
     {
       "id": 3,
-      "name": "devRockets",
+      "name": "React Magicians",
       "demo": {
-        "web": "https://sagramielgo.github.io/sagramielgo-dev-rockets/",
-        "repo": "https://github.com/Sagramielgo/sagramielgo-dev-rockets"
+        "web": "https://sagramielgo-react-magicians.herokuapp.com/",
+        "repo": "https://github.com/Sagramielgo/react-magicians"
       },
-      "url": "devRockets.png"
+      "url": "react-magicians.png"
      
     },
+  
+  
+   
     {
       "id": 4,
       "name": "Counting Sheep",
@@ -53,6 +55,16 @@
     },
     {
       "id": 6,
+      "name": "devRockets",
+      "demo": {
+        "web": "https://sagramielgo.github.io/sagramielgo-dev-rockets/",
+        "repo": "https://github.com/Sagramielgo/sagramielgo-dev-rockets"
+      },
+      "url": "devRockets.png"
+     
+    },
+    {
+      "id": 7,
       "name": "This is me",
       "demo": {
         "web": "https://sagramielgo.github.io/sagramielgo-this-is-me/",
@@ -61,17 +73,6 @@
       "url": "this-is-me.png"
      
     },
-    {
-      "id": 7,
-      "name": "React Magicians",
-      "demo": {
-        "web": "https://sagramielgo-react-magicians.herokuapp.com/",
-        "repo": "https://github.com/Sagramielgo/react-magicians"
-      },
-      "url": "react-magicians.png"
-     
-    },
-    
     {
       "id": 8,
       "name": "React Magicians",
@@ -82,7 +83,8 @@
       "url": "react-magicians.png"
      
     }
-  
+ 
+   
       
   
   ]

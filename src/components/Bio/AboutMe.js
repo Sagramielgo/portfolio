@@ -1,6 +1,8 @@
 import '../../stylesSheet/bio/aboutMe.scss';
 import '../../stylesSheet/landing/buttonSection.scss';
 import Footer from '../Landing/Footer';
+import engImage from '../../images/english.png';
+import spImage from '../../images/spanish.png';
 import { Link } from 'react-router-dom';
 import React from 'react';
 function AboutMe() {
@@ -14,6 +16,10 @@ function AboutMe() {
       </div>
       <main className="mainContainer">
         <article className="articleBio articleBio1">
+          <section className="headerArticle">
+            <img src={engImage} className="flag" alt="English Flag" />
+            <i class="icon-bio far fa-file-pdf"></i>{' '}
+          </section>
           <p className="text text1">
             Hi! I’m Sagra Mielgo, a junior front-end developer. I’ve just
             finished a boot camp at Adalab, a digital school for women. With
@@ -35,6 +41,10 @@ function AboutMe() {
           </p>
         </article>
         <article className="articleBio articleBio2">
+          <section className="headerArticle">
+            <img src={spImage} className="flag" alt="English Flag" />
+            <i class="icon-bio icon-bioSp far fa-file-pdf"></i>
+          </section>
           <p className="text text2">
             Siempre quise ser cantante, maestra y astronauta. Con esfuerzo y
             dedicación me formé en Filología, canto, música y teatro; mi

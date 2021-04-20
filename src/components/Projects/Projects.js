@@ -33,42 +33,40 @@ function Projects() {
               devRockets
               <a
                 className="article__list--link"
-                href="https://www.linkedin.com/in/sagramielgo/"
+                href="https://www.youtube.com/watch?v=pdzEJnlMqdA"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i
-                  className="article__list--icon fab fa-linkedin"
+                  className="article__list--icon fas fa-rocket"
                   aria-hidden="true"
                 ></i>
               </a>
             </li>
             <li className="article__list--item">
-              {' '}
               This is Me
               <a
                 className="article__list--link"
-                href="https://twitter.com/Sagramielgo"
+                href="https://www.youtube.com/watch?v=SfTgr9eAIKc/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i
-                  className="article__list--icon fab fa-twitter-square"
+                  className="article__list--icon fas fa-tv"
                   aria-hidden="true"
                 ></i>
               </a>
             </li>
             <li className="article__list--item">
-              {' '}
               React Magicians
               <a
                 className="article__list--link"
-                href="mailto:sagramielgo@gmail.com"
+                href="https://www.youtube.com/watch?v=Qvc12u0rrAc"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i
-                  className="article__list--icon fas fa-envelope-square"
+                  className="article__list--icon fas fas fa-tree"
                   aria-hidden="true"
                 ></i>
               </a>
