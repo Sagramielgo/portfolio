@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.af23d62f.chunk.css",
-    "main.js": "./static/js/main.689448a1.chunk.js",
-    "main.js.map": "./static/js/main.689448a1.chunk.js.map",
+    "main.css": "./static/css/main.57709cff.chunk.css",
+    "main.js": "./static/js/main.220f6fc0.chunk.js",
+    "main.js.map": "./static/js/main.220f6fc0.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.03a77393.js",
     "runtime-main.js.map": "./static/js/runtime-main.03a77393.js.map",
     "static/js/2.2ca87eeb.chunk.js": "./static/js/2.2ca87eeb.chunk.js",
     "static/js/2.2ca87eeb.chunk.js.map": "./static/js/2.2ca87eeb.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.af23d62f.chunk.css.map": "./static/css/main.af23d62f.chunk.css.map",
+    "static/css/main.57709cff.chunk.css.map": "./static/css/main.57709cff.chunk.css.map",
     "static/js/2.2ca87eeb.chunk.js.LICENSE.txt": "./static/js/2.2ca87eeb.chunk.js.LICENSE.txt",
     "static/media/characterBrowser.png": "./static/media/characterBrowser.895d1aac.png",
     "static/media/counting-sheep.png": "./static/media/counting-sheep.08026d86.png",
+    "static/media/cv-sagramielgo-en.1e2b51ff.pdf": "./static/media/cv-sagramielgo-en.1e2b51ff.pdf",
+    "static/media/cv-sagramielgo-es.9f1d05d9.pdf": "./static/media/cv-sagramielgo-es.9f1d05d9.pdf",
     "static/media/devRockets.png": "./static/media/devRockets.7d4219ee.png",
     "static/media/english.47e7e053.png": "./static/media/english.47e7e053.png",
     "static/media/layout-loving-dog.png": "./static/media/layout-loving-dog.5cdd9a00.png",
@@ -23,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.03a77393.js",
     "static/js/2.2ca87eeb.chunk.js",
-    "static/css/main.af23d62f.chunk.css",
-    "static/js/main.689448a1.chunk.js"
+    "static/css/main.57709cff.chunk.css",
+    "static/js/main.220f6fc0.chunk.js"
   ]
 }
