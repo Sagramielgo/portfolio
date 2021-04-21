@@ -1,5 +1,40 @@
-## PORTFOLIO
+## PORTFOLIO Sagra Mielgo
 
-🚧 Now in progress. Coming soon 😺
+[By #gitFuntastic](https://github.com/Sagramielgo)
+🚧 Still in progress, but you can already see some of my projects and work.
 
 <img src="./src/images/s-icon.png" alt="S Icon" height="250" width="250"/>
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+After clone it you need run:
+
+### `npm install`
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
