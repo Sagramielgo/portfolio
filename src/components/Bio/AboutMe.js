@@ -3,6 +3,8 @@ import '../../stylesSheet/landing/buttonSection.scss';
 import Footer from '../Landing/Footer';
 import engImage from '../../images/english.png';
 import spImage from '../../images/spanish.png';
+import cvEnglish from '../../assets/cv-sagramielgo-en.pdf';
+import cvSpanish from '../../assets/cv-sagramielgo-es.pdf';
 import { Link } from 'react-router-dom';
 import React from 'react';
 function AboutMe() {
@@ -18,7 +20,15 @@ function AboutMe() {
         <article className="articleBio articleBio1">
           <section className="headerArticle">
             <img src={engImage} className="flag" alt="English Flag" />
-            <i class="icon-bio far fa-file-pdf"></i>{' '}
+            <a
+              title="My CV in English"
+              href={cvEnglish}
+              target="_blank"
+              className="cvLink"
+              rel="noreferrer"
+            >
+              <i class="cvIcon far fa-file-pdf"></i>
+            </a>
           </section>
           <p className="text text1">
             Hi! I’m Sagra Mielgo, a junior front-end developer. I’ve just
@@ -43,7 +53,15 @@ function AboutMe() {
         <article className="articleBio articleBio2">
           <section className="headerArticle">
             <img src={spImage} className="flag" alt="English Flag" />
-            <i class="icon-bio icon-bioSp far fa-file-pdf"></i>
+            <a
+              title="My CV in Spanish"
+              href={cvSpanish}
+              target="_blank"
+              className="cvLink"
+              rel="noreferrer"
+            >
+              <i className="cvIcon cvIconSp far fa-file-pdf"></i>
+            </a>
           </section>
           <p className="text text2">
             Siempre quise ser cantante, maestra y astronauta. Con esfuerzo y

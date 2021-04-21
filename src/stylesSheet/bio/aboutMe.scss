@@ -61,18 +61,25 @@
   align-items: center;
 }
 .flag {
-  width: 30px;
+  width: 35px;
   margin-top: 5px;
   @media all and (min-width: 768px) {
-    width: 40px;
+    width: 45px;
     margin-top: 10px;
   }
 }
-.icon-bio {
+.cvIcon {
   padding: 10px 0 0 0;
   font-size: 30px;
   color: white;
+  transition: all ease 0.5s;
+  @media all and (min-width: 768px) {
+    font-size: 40px;
+  }
+  &:hover {
+    transform: scale(1.2);
+  }
 }
-.icon-bioSp {
+.cvIconSp {
   color: black;
 }
