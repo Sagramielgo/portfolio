@@ -1,7 +1,7 @@
 .projectCard {
   box-sizing: border-box;
   width: 145px;
-  height: 170px;
+  height: 175px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,29 +13,28 @@
   cursor: pointer;
   transition: all ease 0.4s;
   @media all and (min-width: 768px) {
-    border: 5px solid white;
-    width: 160px;
-    height: 210px;
+    border: 4px solid white;
+    width: 170px;
+    height: 215px;
   }
 
   @media all and (min-width: 1200px) {
     width: 200px;
-    height: 250px;
+    height: 240px;
   }
   &:hover {
     transform: scale(1.1);
   }
   &__name {
     font-size: 17px;
-    font-weight: bold;
     margin: 0;
     padding: 10px 0;
-    color: rgb(63, 62, 62);
+    color: black;
     @media all and (min-width: 768px) {
-      font-size: 20px;
+      font-size: 22px;
     }
     @media all and (min-width: 1200px) {
-      font-size: 22px;
+      font-size: 24px;
     }
   }
   &__image {
@@ -43,10 +42,10 @@
     width: 130px;
 
     @media all and (min-width: 768px) {
-      width: 140px;
+      width: 155px;
     }
     @media all and (min-width: 1200px) {
-      width: 180px;
+      width: 185px;
     }
   }
   &__contact {
@@ -60,7 +59,7 @@
       font-size: 15px;
       font-weight: bold;
       @media all and (min-width: 768px) {
-        font-size: 18px;
+        font-size: 17px;
         margin: 5px;
       }
       @media all and (min-width: 1200px) {

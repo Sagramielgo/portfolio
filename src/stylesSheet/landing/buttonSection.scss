@@ -10,6 +10,7 @@
     width: 110px;
     height: 36px;
     border-radius: 17px;
+    font-weight: bold;
     cursor: pointer;
     background-color: cyan;
     display: flex;
@@ -42,4 +43,7 @@
     opacity: 1;
     transform: scale(1);
   }
+}
+.btnLink {
+  color: black;
 }

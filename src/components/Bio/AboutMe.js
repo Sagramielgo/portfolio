@@ -12,7 +12,7 @@ function AboutMe() {
     <div className="bioContainer">
       <h1 className="titleBio">About Me</h1>
       <div className="btnSection__button">
-        <Link to="/" className="main__button--link">
+        <Link to="/" className="btnLink">
           Home
         </Link>
       </div>
@@ -27,7 +27,7 @@ function AboutMe() {
               className="cvLink"
               rel="noreferrer"
             >
-              <i class="cvIcon far fa-file-pdf"></i>
+              <i className="cvIcon far fa-file-pdf"></i>
             </a>
           </section>
           <p className="text text1">

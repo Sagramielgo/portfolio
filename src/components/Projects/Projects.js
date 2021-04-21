@@ -74,7 +74,7 @@ function Projects() {
           </ul>
         </nav>
         <div className="btnSection__button btnProjects">
-          <Link to="/" className="main__button--link">
+          <Link to="/" className="btnLink">
             Home
           </Link>
         </div>

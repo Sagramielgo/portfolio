@@ -5,20 +5,15 @@ function ButtonSection() {
   return (
     <section className="btnSection">
       <div className="btnSection__button">
-        <Link to="/about-me" className="main__button--link">
+        <Link to="/about-me" className="btnLink">
           About me
         </Link>
       </div>
       <div className="btnSection__button">
-        <Link to="/projects" className="main__button--link">
+        <Link to="/projects" className="btnLink">
           Projects
         </Link>
       </div>
-      {/*  <div className="btnSection__button">
-       <Link to="/projects" className="main__button--link"> 
-        Vídeo
-      </Link> 
-      </div> */}
     </section>
   );
 }

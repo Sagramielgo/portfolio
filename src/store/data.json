@@ -3,13 +3,13 @@
       "id": 1,
       "name": "Character Browser",
       "demo": {
-        "web": "https://github.com/Sagramielgo/characters-finder-rick-and-morty-Sagramielgo",
-        "repo": "https://sagramielgo.github.io/characters-finder-rick-and-morty-Sagramielgo/"
+        "web":"https://sagramielgo.github.io/characters-finder-rick-and-morty-Sagramielgo/",
+        "repo":"https://github.com/Sagramielgo/characters-finder-rick-and-morty-Sagramielgo"
       },
       "url": "characterBrowser.png"
      
     },
-  
+   
   
     {
       "id": 2,
