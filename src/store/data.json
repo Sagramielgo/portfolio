@@ -20,21 +20,10 @@
       },
       "url": "series-browser.png"
     },
-    {
-      "id": 3,
-      "name": "React Magicians",
-      "demo": {
-        "web": "https://sagramielgo-react-magicians.herokuapp.com/",
-        "repo": "https://github.com/Sagramielgo/react-magicians"
-      },
-      "url": "react-magicians.png"
-     
-    },
-  
   
    
     {
-      "id": 4,
+      "id": 3,
       "name": "Counting Sheep",
       "demo": {
         "web": "https://sagramielgo.github.io/sheeps-counter/",
@@ -44,7 +33,7 @@
      
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "Layout Loving Dog",
       "demo": {
         "web": "https://sagramielgo.github.io/layout-loving-dog/",
@@ -54,7 +43,7 @@
  
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "devRockets",
       "demo": {
         "web": "https://sagramielgo.github.io/sagramielgo-dev-rockets/",
@@ -64,7 +53,7 @@
      
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "This is me",
       "demo": {
         "web": "https://sagramielgo.github.io/sagramielgo-this-is-me/",
@@ -74,7 +63,7 @@
      
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "React Magicians",
       "demo": {
         "web": "https://sagramielgo-react-magicians.herokuapp.com/",
