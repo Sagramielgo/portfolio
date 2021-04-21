@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.57709cff.chunk.css",
-    "main.js": "./static/js/main.220f6fc0.chunk.js",
-    "main.js.map": "./static/js/main.220f6fc0.chunk.js.map",
+    "main.css": "./static/css/main.828c59b7.chunk.css",
+    "main.js": "./static/js/main.43a8c139.chunk.js",
+    "main.js.map": "./static/js/main.43a8c139.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.03a77393.js",
     "runtime-main.js.map": "./static/js/runtime-main.03a77393.js.map",
     "static/js/2.2ca87eeb.chunk.js": "./static/js/2.2ca87eeb.chunk.js",
     "static/js/2.2ca87eeb.chunk.js.map": "./static/js/2.2ca87eeb.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.57709cff.chunk.css.map": "./static/css/main.57709cff.chunk.css.map",
+    "static/css/main.828c59b7.chunk.css.map": "./static/css/main.828c59b7.chunk.css.map",
     "static/js/2.2ca87eeb.chunk.js.LICENSE.txt": "./static/js/2.2ca87eeb.chunk.js.LICENSE.txt",
     "static/media/characterBrowser.png": "./static/media/characterBrowser.895d1aac.png",
     "static/media/counting-sheep.png": "./static/media/counting-sheep.08026d86.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.03a77393.js",
     "static/js/2.2ca87eeb.chunk.js",
-    "static/css/main.57709cff.chunk.css",
-    "static/js/main.220f6fc0.chunk.js"
+    "static/css/main.828c59b7.chunk.css",
+    "static/js/main.43a8c139.chunk.js"
   ]
 }
