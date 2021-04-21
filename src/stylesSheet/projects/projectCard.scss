@@ -1,20 +1,19 @@
 .projectCard {
   box-sizing: border-box;
-  width: 135px;
+  width: 145px;
   height: 170px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border: 5px solid white;
+  border: 3px solid white;
   border-radius: 20px;
   margin: 20px;
   background-color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
-  /* box-shadow: 0 10px 20px rgba(255, 255, 255, 0.842),
-    0 6px 6px rgba(248, 246, 246, 0.23); */
   transition: all ease 0.4s;
   @media all and (min-width: 768px) {
+    border: 5px solid white;
     width: 160px;
     height: 210px;
   }
@@ -27,7 +26,8 @@
     transform: scale(1.1);
   }
   &__name {
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: bold;
     margin: 0;
     padding: 10px 0;
     color: rgb(63, 62, 62);
@@ -40,7 +40,7 @@
   }
   &__image {
     border-radius: 10px;
-    width: 120px;
+    width: 130px;
 
     @media all and (min-width: 768px) {
       width: 140px;
@@ -57,15 +57,19 @@
     &--item {
       display: inline;
       margin: 3px;
-      font-size: 14px;
+      font-size: 15px;
+      font-weight: bold;
       @media all and (min-width: 768px) {
-        font-size: 16px;
+        font-size: 18px;
         margin: 5px;
       }
       @media all and (min-width: 1200px) {
         font-size: 18px;
         margin: 7px;
       }
+    }
+    &--icon {
+      padding-right: 2px;
     }
     &--link {
       color: rgb(68, 67, 67);
