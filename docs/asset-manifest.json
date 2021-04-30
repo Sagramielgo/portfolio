@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.123c26d0.chunk.css",
-    "main.js": "./static/js/main.43a8c139.chunk.js",
-    "main.js.map": "./static/js/main.43a8c139.chunk.js.map",
+    "main.js": "./static/js/main.8bab3c94.chunk.js",
+    "main.js.map": "./static/js/main.8bab3c94.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.03a77393.js",
     "runtime-main.js.map": "./static/js/runtime-main.03a77393.js.map",
     "static/js/2.2ca87eeb.chunk.js": "./static/js/2.2ca87eeb.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/cv-sagramielgo-es.9f1d05d9.pdf": "./static/media/cv-sagramielgo-es.9f1d05d9.pdf",
     "static/media/devRockets.png": "./static/media/devRockets.7d4219ee.png",
     "static/media/english.47e7e053.png": "./static/media/english.47e7e053.png",
+    "static/media/i-love-jazz.png": "./static/media/i-love-jazz.0a4092d5.png",
     "static/media/layout-loving-dog.png": "./static/media/layout-loving-dog.5cdd9a00.png",
     "static/media/react-magicians.png": "./static/media/react-magicians.d96091c0.png",
     "static/media/App.scss": "./static/media/sagra-1.9e6d05b5.jpg",
@@ -26,6 +27,6 @@
     "static/js/runtime-main.03a77393.js",
     "static/js/2.2ca87eeb.chunk.js",
     "static/css/main.123c26d0.chunk.css",
-    "static/js/main.43a8c139.chunk.js"
+    "static/js/main.8bab3c94.chunk.js"
   ]
 }
