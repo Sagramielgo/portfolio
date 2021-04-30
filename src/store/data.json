@@ -32,6 +32,18 @@
       "url": "counting-sheep.png"
      
     },
+
+    {
+      "id": 4,
+      "name": "I Love Jazz",
+      "demo": {
+        "web": "https://sagramielgo.github.io/i-love-jazz/",
+        "repo": "https://github.com/Sagramielgo/i-love-jazz"
+      },
+      "url": "i-love-jazz.png"
+     
+    },
+
     {
       "id": 4,
       "name": "Layout Loving Dog",
@@ -42,6 +54,8 @@
       "url": "layout-loving-dog.png"
  
     },
+
+
     {
       "id": 5,
       "name": "devRockets",
