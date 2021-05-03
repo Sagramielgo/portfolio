@@ -1,4 +1,5 @@
 import ProjectCard from './ProjectCard.js';
+import Skills from './Skills.js';
 import '../../stylesSheet/projects/projectList.scss';
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
@@ -31,28 +32,7 @@ function ProjectList(props) {
   return (
     <>
       <h1 className={`title ${colorTitle}`}>{`${choose}`}</h1>
-      <article className="articleProject">
-        <ul className="articleProject__list">
-          <li className="articleProject__list--item">
-            <i className="fab fa-html5 articleProject__list--icon"></i>
-          </li>
-          <li className="articleProject__list--item">
-            <i className="articleProject__list--icon fab fa-sass"></i>
-          </li>
-          <li className="articleProject__list--item">
-            <i className="articleProject__list--icon fab fa-js-square"></i>
-          </li>
-          <li className="articleProject__list--item">
-            <i className="articleProject__list--icon fab fa-react"></i>
-          </li>
-          <li className="articleProject__list--item">
-            <i className="articleProject__list--icon fab fa-git-square"></i>
-          </li>
-          <li className="articleProject__list--item">
-            <i className="articleProject__list--icon fab fa-node-js"></i>
-          </li>
-        </ul>
-      </article>
+      <Skills />
       <ul className="listContainer">{projectList}</ul>
     </>
   );
