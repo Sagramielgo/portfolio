@@ -12,6 +12,9 @@ function Skills() {
           <i className="articleProject__list--icon fab fa-js-square"></i>
         </li>
         <li className="articleProject__list--item">
+          <i className="articleProject__list--icon fab fa-gulp"></i>
+        </li>
+        <li className="articleProject__list--item">
           <i className="articleProject__list--icon fab fa-react"></i>
         </li>
         <li className="articleProject__list--item">
