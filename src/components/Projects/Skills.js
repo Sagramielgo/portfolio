@@ -20,6 +20,9 @@ function Skills() {
         <li className="articleProject__list--item">
           <i className="articleProject__list--icon fab fa-node-js"></i>
         </li>
+        <li className="articleProject__list--item">
+          <i className="articleProject__list--icon fas fa-database"></i>
+        </li>
       </ul>
     </article>
   );
