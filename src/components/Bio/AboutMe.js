@@ -1,12 +1,21 @@
-import '../../stylesSheet/bio/aboutMe.scss';
-import '../../stylesSheet/landing/buttonSection.scss';
-import Footer from '../Landing/Footer';
-import engImage from '../../images/english.png';
-import spImage from '../../images/spanish.png';
-import cvEnglish from '../../assets/cv-sagramielgo-en.pdf';
-import cvSpanish from '../../assets/cv-sagramielgo-es.pdf';
 import { Link } from 'react-router-dom';
 import React from 'react';
+
+//styles
+import '../../stylesSheet/bio/aboutMe.scss';
+import '../../stylesSheet/landing/buttonSection.scss';
+
+//components
+import Footer from '../Landing/Footer';
+
+//images
+import engImage from '../../images/english.png';
+import spImage from '../../images/spanish.png';
+
+//assets
+import cvEnglish from '../../assets/cv-sagramielgo-en.pdf';
+import cvSpanish from '../../assets/cv-sagramielgo-es.pdf';
+
 function AboutMe() {
   return (
     <div className="bioContainer">
