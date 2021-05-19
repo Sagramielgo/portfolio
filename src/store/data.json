@@ -1,6 +1,16 @@
 [
+  {
+    "id": 1,
+    "name": "Client Agenda",
+    "demo": {
+      "web":"https://sagramielgo.github.io/client-agenda/#/",
+      "repo":"https://github.com/Sagramielgo/client-agenda"
+    },
+    "url": "client-agenda.png"
+   
+  },
     {
-      "id": 1,
+      "id": 2,
       "name": "Character Browser",
       "demo": {
         "web":"https://sagramielgo.github.io/characters-finder-rick-and-morty-Sagramielgo/",
@@ -12,7 +22,7 @@
    
   
     {
-      "id": 2,
+      "id": 3,
       "name": "Tv Browser",
       "demo": {
         "web": "https://sagramielgo.github.io/tvseries-finder-Sagramielgo/",
@@ -23,7 +33,7 @@
   
    
     {
-      "id": 3,
+      "id": 4,
       "name": "Counting Sheep",
       "demo": {
         "web": "https://sagramielgo.github.io/sheeps-counter/",
@@ -34,7 +44,7 @@
     },
 
     {
-      "id": 4,
+      "id": 5,
       "name": "I Love Jazz",
       "demo": {
         "web": "https://sagramielgo.github.io/i-love-jazz/",
@@ -45,7 +55,7 @@
     },
 
     {
-      "id": 4,
+      "id": 6,
       "name": "Layout Loving Dog",
       "demo": {
         "web": "https://sagramielgo.github.io/layout-loving-dog/",
@@ -57,7 +67,7 @@
 
 
     {
-      "id": 5,
+      "id": 7,
       "name": "devRockets",
       "demo": {
         "web": "https://sagramielgo.github.io/sagramielgo-dev-rockets/",
@@ -67,7 +77,7 @@
      
     },
     {
-      "id": 6,
+      "id": 8,
       "name": "This is me",
       "demo": {
         "web": "https://sagramielgo.github.io/sagramielgo-this-is-me/",
@@ -77,7 +87,7 @@
      
     },
     {
-      "id": 7,
+      "id": 9,
       "name": "React Magicians",
       "demo": {
         "web": "https://sagramielgo-react-magicians.herokuapp.com/",
